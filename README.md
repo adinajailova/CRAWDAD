@@ -55,7 +55,7 @@ p2 <- ksfb %>%
 options(repr.plot.width = 20, repr.plot.height = 9)
 grid.arrange(p1, p2, nrow = 1)
 ```
-<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/visualization.png?raw=true" height="510"/>
+<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/visualization.png?raw=true"/>
 
 ## Determine neighboring distance
 
@@ -151,7 +151,7 @@ d %>%
   vizTrends(lines = TRUE, withPerms = TRUE, zSigThresh = zsig1)
 
 ```
-<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/Ki67 proliferating-Fol B cells_relationships_plot.png?raw=true" height="510"/>
+<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/Ki67 proliferating-Fol B cells_relationships_plot.png?raw=true"/>
   
 ```r
 
@@ -165,7 +165,7 @@ d %>%
   vizTrends(lines = TRUE, withPerms = TRUE, zSigThresh = zsig1)
 
 ```
-<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/B cells, red pulp-Fol B cells_relationships_plot.png?raw=true" height="510"/>
+<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/B cells, red pulp-Fol B cells_relationships_plot.png?raw=true"/>
   
 ## Visualize cell-type relationships
 ```r
@@ -219,7 +219,7 @@ neighbor_cell <- 'Fol B cells'
 
 plot_celltypes(c(reference_cell, neighbor_cell))
 ```
-<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/Ki67 proliferating_Fol B cells_plot.png?raw=true" height="510"/>
+<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/Ki67 proliferating_Fol B cells_plot.png?raw=true"/>
 
 
 ```r
@@ -228,7 +228,7 @@ neighbor_cell <- 'Fol B cells'
 
 plot_celltypes(c(reference_cell, neighbor_cell))
 ```
-<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/B cells, red pulp_Fol B cells_plot.png?raw=true" height="510"/>
+<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/B cells, red pulp_Fol B cells_plot.png?raw=true"/>
   
 
 More details can be found in the tutorials.
