@@ -124,7 +124,7 @@ vizColocDotplot(dat_ksfb, zSigThresh = zsig2, zScoreLimit = 2*zsig2,
   theme(axis.text.x = element_text(angle = 35, h = 0))
 ```
 
-<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/CRAWDAD.png?raw=true" height="510"/>
+<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/CRAWDAD.png?raw=true"/>
 
 ## Multiple sample analysis
 ```r
@@ -137,7 +137,7 @@ auc_samples <- calculateAUC(list(dat_pkhl, dat_ksfb))
 options(repr.plot.width = 10, repr.plot.height = 9)
 vizVarianceSamples(auc_samples)
 ```
-<img src="https:https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/variance.png?raw=true" height="510"/>
+<img src="https://github.com/JEFworks/CRAWDAD/blob/main/docs/img/variance.png?raw=true"/>
 
 ## Visualize trends for one cell-type pair
 ```r
